@@ -25,6 +25,7 @@
           <div class="media">
             <div class="media-body">
               <h2>Latest Mars News</h2>
+              <h3 class="media-pictures">{% for hemisphere in mars.hemispheres %}</h3>
               <h4 class="media-heading">{{ mars.news_title }}</h4>
               <p>{{ mars.news_paragraph }}</p>
             </div>
